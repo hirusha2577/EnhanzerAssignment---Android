@@ -1,0 +1,51 @@
+<LinearLayout android:layout_width="match_parent"
+    android:id="@+id/customer"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/card_color"
+    android:layout_marginBottom="10dp"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/yellow_background"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+
+            android:background="@drawable/base_color_background"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="-10dp"
+                android:src="@drawable/ic_person" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="p test customer 2"/>
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="colombo"/>
+    </LinearLayout>
+</LinearLayout>
